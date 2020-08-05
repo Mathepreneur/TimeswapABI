@@ -1,0 +1,7 @@
+Timeswap Convenience
+0xEF8A60AEaf930b836570dF25ff07722d937B89c7
+
+
+Use the address of TimeswapPool as the first argument 0xF4D650fD4C049d3a5a62D43E1DfF78D995DA9EBF
+
+use the "approve" function of SampleERc20 first to approve moving the users token when using lend, borrow, and pay functions

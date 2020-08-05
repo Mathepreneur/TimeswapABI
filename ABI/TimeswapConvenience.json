@@ -1,0 +1,155 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "contract TimeswapPool",
+                "name": "_timeswapPool",
+                "type": "address"
+            },
+            {
+                "internalType": "uint128",
+                "name": "_token",
+                "type": "uint128"
+            },
+            {
+                "internalType": "uint128",
+                "name": "_collateral",
+                "type": "uint128"
+            },
+            {
+                "internalType": "address",
+                "name": "_to",
+                "type": "address"
+            }
+        ],
+        "name": "borrow",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "contract TimeswapPool",
+                "name": "_timeswapPool",
+                "type": "address"
+            },
+            {
+                "internalType": "uint128",
+                "name": "_token",
+                "type": "uint128"
+            },
+            {
+                "internalType": "uint128",
+                "name": "_insurance",
+                "type": "uint128"
+            },
+            {
+                "internalType": "address",
+                "name": "_to",
+                "type": "address"
+            }
+        ],
+        "name": "lend",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "contract TimeswapPool",
+                "name": "_timeswapPool",
+                "type": "address"
+            },
+            {
+                "internalType": "uint128",
+                "name": "_debt",
+                "type": "uint128"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_index",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "_to",
+                "type": "address"
+            }
+        ],
+        "name": "pay",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "contract TimeswapPool",
+                "name": "_timeswapPool",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_index",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "_to",
+                "type": "address"
+            }
+        ],
+        "name": "payAll",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "contract TimeswapPool",
+                "name": "_timeswapPool",
+                "type": "address"
+            },
+            {
+                "internalType": "uint128",
+                "name": "_bond",
+                "type": "uint128"
+            },
+            {
+                "internalType": "uint128",
+                "name": "_insurance",
+                "type": "uint128"
+            },
+            {
+                "internalType": "address",
+                "name": "_to",
+                "type": "address"
+            }
+        ],
+        "name": "withdraw",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "contract TimeswapPool",
+                "name": "_timeswapPool",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "_to",
+                "type": "address"
+            }
+        ],
+        "name": "withdrawAll",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

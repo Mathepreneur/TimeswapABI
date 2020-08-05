@@ -1,0 +1,9 @@
+Sample ERC20 Dai TS Demo
+0xcfc4eD836158ccCd9c550d4224585Ed81D13a386
+
+Sample ERC20 Filecoin TS Demo
+0xb6bEff9159878BA53ad000090cd7E1E5c344422C
+
+use the "mint" function to create a faucet dapp for Dai coin and File coin for users
+
+use the "approve" function first to approve moving the users token when using lend, borrow, and pay functions of Timeswap Convenience
